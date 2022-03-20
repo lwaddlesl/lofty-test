@@ -42,12 +42,12 @@ html {
   height: 200px;
   background-color: gray;
 }
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 768px) {
   .items {
     width: calc(50vw - 30px);
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 425px) {
   .items {
     width: calc(100vw - 40px);
   }
